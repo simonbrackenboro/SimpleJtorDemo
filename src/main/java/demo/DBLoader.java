@@ -4,7 +4,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 
 import javax.inject.Inject;
 
-/* Simple class that created and loads the table with data */
+/* Simple class that creates and loads the table with data */
 public class DBLoader implements Runnable{
     private final JdbcTemplate jt;
 
